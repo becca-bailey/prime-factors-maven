@@ -1,0 +1,590 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Returns an empty collection",
+        "description": "",
+        "id": "prime-factors;returns-an-empty-collection",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 150247030,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I generate the prime factors of 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps.iGenerateThePrimeFactorsOf(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134786,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I generate the prime factors of 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps.iGenerateThePrimeFactorsOf(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9545352,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "it returns an empty collection",
+            "match": {
+              "location": "Steps.itReturnsAnEmptyCollection()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Returns a prime number",
+        "description": "",
+        "id": "prime-factors;returns-a-prime-number;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 133967,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I generate the prime factors of 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps.iGenerateThePrimeFactorsOf(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262658,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "it returns list 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.itReturnsList(Integer\u003e)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Returns a prime number",
+        "description": "",
+        "id": "prime-factors;returns-a-prime-number;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 150111,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I generate the prime factors of 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps.iGenerateThePrimeFactorsOf(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123772,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "it returns list 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.itReturnsList(Integer\u003e)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Returns a prime number",
+        "description": "",
+        "id": "prime-factors;returns-a-prime-number;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 125168,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I generate the prime factors of 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps.iGenerateThePrimeFactorsOf(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171379,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "it returns list 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.itReturnsList(Integer\u003e)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Returns a prime number",
+        "description": "",
+        "id": "prime-factors;returns-a-prime-number;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000115,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I generate the prime factors of 23",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps.iGenerateThePrimeFactorsOf(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 245031,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "it returns list 23",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.itReturnsList(Integer\u003e)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Returns two or more prime factors",
+        "description": "",
+        "id": "prime-factors;returns-two-or-more-prime-factors;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 127138,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I generate the prime factors of 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps.iGenerateThePrimeFactorsOf(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104497,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "it returns list 2, 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2, 2",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.itReturnsList(Integer\u003e)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Returns two or more prime factors",
+        "description": "",
+        "id": "prime-factors;returns-two-or-more-prime-factors;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 177592,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I generate the prime factors of 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps.iGenerateThePrimeFactorsOf(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1404852,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "it returns list 2, 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2, 3",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.itReturnsList(Integer\u003e)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Returns two or more prime factors",
+        "description": "",
+        "id": "prime-factors;returns-two-or-more-prime-factors;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 142686,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I generate the prime factors of 8",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps.iGenerateThePrimeFactorsOf(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201610,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "it returns list 2, 2, 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2, 2, 2",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.itReturnsList(Integer\u003e)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Returns two or more prime factors",
+        "description": "",
+        "id": "prime-factors;returns-two-or-more-prime-factors;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 141144,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I generate the prime factors of 9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps.iGenerateThePrimeFactorsOf(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2154734,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "it returns list 3, 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3, 3",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.itReturnsList(Integer\u003e)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Returns two or more prime factors",
+        "description": "",
+        "id": "prime-factors;returns-two-or-more-prime-factors;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 400116,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I generate the prime factors of 49",
+            "match": {
+              "arguments": [
+                {
+                  "val": "49",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps.iGenerateThePrimeFactorsOf(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 289710,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "it returns list 7, 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7, 7",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.itReturnsList(Integer\u003e)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Returns two or more prime factors",
+        "description": "",
+        "id": "prime-factors;returns-two-or-more-prime-factors;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 130455,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I generate the prime factors of 99",
+            "match": {
+              "arguments": [
+                {
+                  "val": "99",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps.iGenerateThePrimeFactorsOf(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165945,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "it returns list 3, 3, 11",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3, 3, 11",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.itReturnsList(Integer\u003e)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Prime Factors",
+    "description": "",
+    "id": "prime-factors",
+    "keyword": "Feature",
+    "uri": "PrimeFactors.feature"
+  }
+]
