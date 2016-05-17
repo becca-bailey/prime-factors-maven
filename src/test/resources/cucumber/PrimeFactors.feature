@@ -1,8 +1,10 @@
 Feature: Prime Factors
-  Scenario: Returns an empty collection
+  Scenario Outline: Returns an empty collection
     When I generate the prime factors of 0
     And I generate the prime factors of 1
-    Then it returns an empty collection
+    Then it returns list <empty>
+    Examples:
+      | empty |
 
   Scenario Outline: Returns a prime number
     When I generate the prime factors of <prime>

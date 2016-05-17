@@ -18,12 +18,6 @@ public class Steps {
         factors = primeFactors.generate(n);
     }
 
-    @Then("^it returns an empty collection$")
-    public void itReturnsAnEmptyCollection() throws Throwable {
-        ArrayList<Integer> emptyCollection = new ArrayList<Integer>();
-        assertEquals(emptyCollection, factors);
-    }
-
     @Then("^it returns list (.*)")
     public void itReturnsList(List<Integer> expectedFactors) throws Throwable {
         assertEquals(expectedFactors, factors);
